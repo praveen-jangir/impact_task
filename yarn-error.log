@@ -1,0 +1,68 @@
+Arguments: 
+  C:\Program Files (x86)\nodejs\node.exe C:\Users\PRAVEENKUMARJANGIR\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react react-dom react-redux redux axios react-table
+
+PATH: 
+  C:\Python311\Scripts\;C:\Python311\;C:\Program Files\OpenJDK\jdk-11.0.2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Users\PRAVEENKUMARJANGIR\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\Google\Chrome\Application\chrome.exe;C:\Program Files\wkhtmltopdf;C:\Program Files (x86)\wkhtmltopdf;C:\Program Files (x86)\nodejs\;C:\Users\PRAVEENKUMARJANGIR\AppData\Local\Microsoft\WindowsApps;C:\Users\PRAVEENKUMARJANGIR\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\Google\Chrome\Application\chrome.exe;C:\Users\PRAVEENKUMARJANGIR\AppData\Local\GitHubDesktop\bin;C:\Program Files\wkhtmltopdf;C:\Program Files (x86)\wkhtmltopdf;C:\Users\PRAVEENKUMARJANGIR\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  18.15.0
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: connect ECONNABORTED 2606:4700:8393:80e2:e439:4:6810:1023:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)
+
+npm manifest: 
+  {
+    "name": "impact",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "axios": "^1.4.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-redux": "^8.0.5",
+      "react-scripts": "5.0.1",
+      "react-table": "^7.8.0",
+      "redux": "^4.2.1",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
